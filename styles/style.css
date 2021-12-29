@@ -1,3 +1,7 @@
+h1,h2,h3,h4,p {
+  margin: 0;
+}
+
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -11,6 +15,29 @@
 
 .bg-grey {
   background-color: #f2f2f2;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-row {
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.self-center {
+  align-self: center;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .logo {
@@ -30,6 +57,7 @@
   position: relative;
   display: flex;
   flex-wrap: wrap;
+  overflow: hidden;
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
@@ -97,4 +125,87 @@
   color: white;
   margin-right: 0;
   margin-top: 80px;
+}
+
+.description {
+  padding-top: 100px;
+}
+
+.two-columns {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.two-columns__brief {
+  width: 175px;
+}
+
+.two-columns__main-text {
+  width: 80%;
+  min-width: 784px;
+}
+
+.two-columns__paragraph, .two-columns__span-accent {
+  font-size: 24px;
+  line-height: 34px;
+}
+
+.two-columns__paragraph {
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+
+.two-columns__paragraph:last-child {
+  margin: 0;
+}
+
+.two-columns__span-accent {
+  font-weight: bolder;
+}
+
+.two-columns__title {
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: normal;
+  color: #2f80ed;
+  margin: 0;
+}
+
+.digits {
+  padding: 100px 0 40px 0;
+}
+
+.table {
+  width: 1100px;
+  margin: 0 auto;
+  padding-top: 60px;
+}
+
+.table__cell {
+  width: 250px;
+  margin-bottom: 60px;
+}
+
+.table__heading {
+  font-size: 24px;
+  font-weight: bolder;
+  line-height: 1.15;
+  margin: 0 0 20px 0;
+}
+
+.table__text-block {
+
+}
+
+.table__text {
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.table__text:last-child {
+  margin: 0;
 }
