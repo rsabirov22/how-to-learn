@@ -351,10 +351,13 @@ a {
 }
 
 .footer__column-links {
-  margin-bottom: 16px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.footer__column-nav {
+  margin-bottom: 16px;
 }
 
 .footer__social-icon {
