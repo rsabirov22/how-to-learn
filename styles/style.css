@@ -252,6 +252,10 @@
   text-align: center;
 }
 
+.feynman__subtitle {
+  margin: 0;
+}
+
 .feynman__subtitle,
 .feynman__link,
 .feynman__link::after {
