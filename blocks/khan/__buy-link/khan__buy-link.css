@@ -1,0 +1,18 @@
+.khan__buy-link {
+  color: #2f80ed;
+  text-decoration: none;
+}
+
+.khan__buy-link::after {
+  color: #2f80ed;
+  display: inline-block;
+  content: '→';
+  margin-left: 5px;
+}
+
+.khan__buy-link,
+.khan__buy-link::after {
+  font-size: 30px;
+  line-height: 42px;
+  font-weight: normal;
+}
