@@ -1,6 +1,12 @@
 .khan__buy-link {
+  display: inline-block;
   color: #2f80ed;
   text-decoration: none;
+  transition: opacity 0.3s ease;
+}
+
+.khan__buy-link:hover {
+  opacity: 0.7;
 }
 
 .khan__buy-link::after {

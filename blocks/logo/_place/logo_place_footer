@@ -1,4 +1,0 @@
-.logo_place_footer {
-  height: 35px;
-  background: url(../images/logo_place_footer.svg) 0 0 no-repeat;
-}

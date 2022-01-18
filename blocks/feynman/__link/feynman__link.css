@@ -4,6 +4,11 @@
   right: 48px;
   color: #2f80ed;
   text-decoration: none;
+  transition: opacity 0.3s ease;
+}
+
+.feynman__link:hover {
+  opacity: 0.7;
 }
 
 .feynman__link::after {
