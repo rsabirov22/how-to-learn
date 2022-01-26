@@ -1,4 +1,7 @@
 .feynman__link {
+  font-size: 36px;
+  line-height: 51px;
+  font-weight: normal;
   position: absolute;
   top: 50%;
   right: 48px;
@@ -13,15 +16,7 @@
 
 .feynman__link::after {
   color: #2f80ed;
-  display: inline-block;
   content: '→';
   margin-left: 5px;
-}
-
-.feynman__link,
-.feynman__link::after {
-  font-size: 36px;
-  line-height: 51px;
-  font-weight: normal;
 }
 

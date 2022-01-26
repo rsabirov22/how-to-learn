@@ -1,4 +1,8 @@
 .header__link {
+  font-size: 18px;
+  line-height: 25px;
+  font-style: normal;
+  font-weight: normal;
   color: #2f80ed;
   text-decoration: none;
   transition: opacity 0.3s ease;
@@ -10,15 +14,7 @@
 
 .header__link::after {
   color: #2f80ed;
-  display: inline-block;
   content: '→';
   margin-left: 5px;
 }
 
-.header__link,
-.header__link::after {
-  font-size: 18px;
-  line-height: 25px;
-  font-style: normal;
-  font-weight: normal;
-}
