@@ -3,4 +3,9 @@
   width: 270px;
   height: 38px;
   max-width: 100%;
+  transition: opacity 0.3s ease;
+}
+
+.resources__logo:hover {
+  opacity: 0.7;
 }
